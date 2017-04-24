@@ -30,5 +30,4 @@ public class Frame {
         return true;
     }
 
-
 }
