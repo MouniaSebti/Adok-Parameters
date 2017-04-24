@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/rotation"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="480dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/rotate"
+        android:padding="40sp"
+        android:tint="@color/primary_dark"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/selector_tools"
+        />
+</LinearLayout>

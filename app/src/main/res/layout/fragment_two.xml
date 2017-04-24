@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/small"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginRight="55sp"
+        android:src="@drawable/medium"
+        android:padding="60sp"
+        android:tint="@color/primary_dark"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/selector_tools"
+         />
+
+    <ImageButton
+        android:id="@+id/medium"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="55sp"
+        android:src="@drawable/medium"
+        android:padding="30sp"
+        android:tint="@color/primary_dark"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/selector_tools" />
+
+    <ImageButton
+        android:id="@+id/large"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="100sp"
+        android:src="@drawable/medium"
+        android:padding="0sp"
+        android:tint="@color/primary_dark"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/selector_tools"  />
+</LinearLayout>
